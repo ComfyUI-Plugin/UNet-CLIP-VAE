@@ -1,0 +1,20 @@
+[project]
+name = "comfyui-unet-clip-vae"
+description = "ComfyUI 自定义节点：将原生 UNet Loader、CLIP Loader、VAE Loader 整合为单一节点 UNet-CLIP-VAE。"
+version = "1.0.0"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+    { name = "UNet-CLIP-VAE" }
+]
+keywords = ["comfyui", "custom-node", "unet", "clip", "vae", "loader"]
+# 本节点仅依赖 ComfyUI 自带模块，无需额外第三方依赖。
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/your-name/UNet-CLIP-VAE"
+
+[tool.comfy]
+PublisherId = "unet-clip-vae"
+DisplayName = "UNet-CLIP-VAE (三合一加载器)"
+Icon = ""
